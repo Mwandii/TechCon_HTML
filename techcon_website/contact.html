@@ -34,15 +34,15 @@
         <section>
             <h2>Contact form</h2>
             <form>
-                <label>Full Name
-                    <input type="text">
-                </label>
-                <label>Email
-                    <input type="email">
-                </label>
-                <label>Message
-                    <textarea></textarea>
-                </label>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+              
                 <button type="submit">Send Message</button>
             </form>
         </section>
